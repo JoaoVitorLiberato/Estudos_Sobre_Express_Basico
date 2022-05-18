@@ -1,0 +1,19 @@
+{
+  "name": "express-gama",
+  "version": "1.0.0",
+  "description": "Arquivo Json para server basico.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon user/app.js"
+  },
+  "keywords": [],
+  "author": "JOÃO VITOR LIBERATO DE OLIVEIRA <Liberato_98@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.19.2"
+  }
+}
