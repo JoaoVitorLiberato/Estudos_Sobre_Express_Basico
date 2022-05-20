@@ -17,13 +17,7 @@ const products = dataBase.define("products", {
         type: DataTypes.STRING
     },
 
-    idMarca: {
-        type: DataTypes.INTEGER,
-        references: {
-            model: marcaProduct,
-            key: "id"
-        }
-    }
+   
 
 
 },
@@ -34,3 +28,10 @@ const products = dataBase.define("products", {
 );
 
 module.exports = products;
+
+
+for(let i = 0; i < 100, i++){
+    if(i % 2 == 1 ){
+        console.log(i);
+    }
+}

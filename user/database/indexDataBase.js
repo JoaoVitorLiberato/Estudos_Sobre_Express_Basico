@@ -10,7 +10,7 @@ const DB_CONFIG = {
     port: 3306
 };
 
-const dataBase = {};
+let dataBase = {};
 const errorMesager = console.error('error when connecting the database');
 
 try {
